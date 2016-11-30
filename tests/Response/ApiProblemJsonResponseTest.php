@@ -1,6 +1,6 @@
 <?php
 
-namespace CultuurNet\UDB3\HttpFoundation;
+namespace CultuurNet\UDB3\HttpFoundation\Response;
 
 use Crell\ApiProblem\ApiProblem;
 use Symfony\Component\HttpFoundation\Response;

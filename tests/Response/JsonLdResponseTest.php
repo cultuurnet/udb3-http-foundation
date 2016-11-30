@@ -1,6 +1,6 @@
 <?php
 
-namespace CultuurNet\UDB3\HttpFoundation;
+namespace CultuurNet\UDB3\HttpFoundation\Response;
 
 class JsonLdResponseTest extends \PHPUnit_Framework_TestCase
 {
