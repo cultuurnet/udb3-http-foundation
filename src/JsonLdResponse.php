@@ -8,9 +8,7 @@ class JsonLdResponse extends JsonResponse
 {
     public function __construct($data = null, $status = 200, $headers = array())
     {
-        $headers += array(
-          'Content-Type' => 'application/ld+json',
-        );
+        $headers += ['Content-Type' => 'application/ld+json'];
 
         parent::__construct(
             $data,

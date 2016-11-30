@@ -35,4 +35,15 @@ class ApiProblemJsonResponseTest extends \PHPUnit_Framework_TestCase
             $apiProblemJsonResponse->getStatusCode()
         );
     }
+
+    /**
+     * @test
+     */
+    public function it_sets_a_problem_json_content_type_header()
+    {
+        $apiProblemJsonResponse = new ApiProblemJsonResponse(new ApiProblem());
+        $contentType = $apiProblemJsonResponse->headers->get('Content-Type', '');
+
+        $this->assertEquals('application/problem+json', $contentType);
+    }
 }

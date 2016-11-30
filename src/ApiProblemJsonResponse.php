@@ -15,9 +15,7 @@ class ApiProblemJsonResponse extends JsonResponse
 {
     public function __construct(ApiProblem $problem, $headers = array())
     {
-        $headers += [
-            'Content-Type' => 'application/problem+json',
-        ];
+        $headers += ['Content-Type' => 'application/problem+json'];
 
         $status = Response::HTTP_BAD_REQUEST;
         if (null !== $problem->getStatus()) {
