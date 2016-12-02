@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/cultuurnet/udb3-http-foundation.svg?branch=master)](https://travis-ci.org/cultuurnet/udb3-http-foundation)
+[![Build Status](https://travis-ci.org/cultuurnet/udb3-http-foundation.svg?branch=master)](https://travis-ci.org/cultuurnet/udb3-http-foundation) [![Coverage Status](https://coveralls.io/repos/github/cultuurnet/udb3-http-foundation/badge.svg?branch=master)](https://coveralls.io/github/cultuurnet/udb3-http-foundation?branch=master)
