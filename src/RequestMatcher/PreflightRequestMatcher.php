@@ -14,7 +14,7 @@ class PreflightRequestMatcher implements RequestMatcherInterface
 
     /**
      * This will match any CORS preflight requests.
-     * Borrowed form the silex-cors-provider.
+     * Borrowed from the silex-cors-provider.
      *
      * @param Request $request
      * @return bool
