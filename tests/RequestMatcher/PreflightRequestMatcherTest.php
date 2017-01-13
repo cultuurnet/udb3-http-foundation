@@ -2,7 +2,6 @@
 
 namespace CultuurNet\UDB3\HttpFoundation\RequestMatcher;
 
-use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 
 class PreflightRequestMatcherTest extends \PHPUnit_Framework_TestCase
