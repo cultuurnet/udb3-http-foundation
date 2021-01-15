@@ -3,9 +3,10 @@
 namespace CultuurNet\UDB3\HttpFoundation\Response;
 
 use Crell\ApiProblem\ApiProblem;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Response;
 
-class ApiProblemJsonResponseTest extends \PHPUnit_Framework_TestCase
+class ApiProblemJsonResponseTest extends TestCase
 {
     /**
      * @test
