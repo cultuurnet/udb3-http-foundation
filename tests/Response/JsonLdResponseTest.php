@@ -2,7 +2,9 @@
 
 namespace CultuurNet\UDB3\HttpFoundation\Response;
 
-class JsonLdResponseTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class JsonLdResponseTest extends TestCase
 {
     /**
      * @test

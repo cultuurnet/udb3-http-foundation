@@ -2,10 +2,11 @@
 
 namespace CultuurNet\UDB3\HttpFoundation\RequestMatcher;
 
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestMatcher;
 
-class AnyOfRequestMatcherTest extends \PHPUnit_Framework_TestCase
+class AnyOfRequestMatcherTest extends TestCase
 {
     /**
      * @test
