@@ -5,6 +5,7 @@
   "license": "Apache-2.0",
   "authors": [],
   "require": {
+    "php": ">=7.1",
     "crell/api-problem": "~1.7",
     "symfony/http-foundation": "~2.7.2"
   },
