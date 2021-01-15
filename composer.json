@@ -3,7 +3,12 @@
   "description": "",
   "type": "library",
   "license": "Apache-2.0",
-  "authors": [],
+  "authors": [
+    {
+      "name": "publiq vzw",
+      "email": "info@publiq.be"
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "crell/api-problem": "~1.7",
